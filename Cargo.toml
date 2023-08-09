@@ -1,0 +1,17 @@
+[package]
+name = "rucene-next"
+version = "0.1.0"
+edition = "2021"
+authors = ["jobdeng"]
+homepage = "https://jobdeng.com/rucene-next"
+repository = "https://github.com/jobdeng/rucene-next"
+readme = "./README.md"
+description = "Extensions for Runcene"
+keywords = ["Rust","tokenizer","indexer","search engine","Rucene"]
+license = "MIT"
+
+[dependencies]
+# rucene = {git="https://github.com/jobdeng/rucene.git", branch="nightly-2023-06-15"}
+
+# [patch."https://github.com/jobdeng/rucene"]
+rucene = {path="../rucene"}
