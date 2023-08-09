@@ -11,7 +11,7 @@ keywords = ["Rust","tokenizer","indexer","search engine","Rucene"]
 license = "MIT"
 
 [dependencies]
-# rucene = {git="https://github.com/jobdeng/rucene.git", branch="nightly-2023-06-15"}
+rucene = {git="https://github.com/jobdeng/rucene.git", branch="nightly-2023-06-15"}
 
 # [patch."https://github.com/jobdeng/rucene"]
-rucene = {path="../rucene"}
+# rucene = {path="../rucene"}
